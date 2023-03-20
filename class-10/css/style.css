@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    margin: 10px ;
+    padding: 0;
+
+    float: left;
+}
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 8.33%;}
+.col-3{width: 8.33%;}
+.col-4{width: 8.33%;}
+.col-5{width: 8.33%;}
+.col-6{width: 8.33%;}
+.col-7{width: 8.33%;}
+.col-8{width: 8.33%;}
+.col-9{width: 8.33%;}
+.col-10{width: 8.33%;}
+.col-11{width: 8.33%;}
+.col-12{width: 100%;}
+
+
+
+.box-one{
+    height: 200px;
+    width: 200px;
+    background-color: silver;
+    border-radius: 100px 100px 0 0;
+    float: left;
+}
+.box-two{
+    height: 200px;
+    width: 200px;
+    background-color: khaki;
+    border-radius: 0 0 100px 100px;
+    float: left;
+}
+.div-one{
+    height: 200px;
+    width: 300px;
+    background-color: lightblue;
+    animation-name: bitm;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.div-two{
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/caat.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.div-two:hover{
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    transition: 1s;
+}
+.div-three{
+    height: 500px;
+    width: 800px;
+    background-color: darkcyan;
+
+    animation-name: image;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+}
+.div-four{
+    height: 300px;
+    width: 300px;
+    /*background-color: deepskyblue;*/
+    background-image: url("../images/R.jpg");
+    background-position: center;
+    transition: 2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.div-four:hover{
+    /*transform: scale(1.5);*/
+    /*transform: scaleX(1.5);*/
+    /*transform: scaleY(1.5);*/
+    transform: scale(1.5, 2);
+}
+.div-five{
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/R (1).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+
+
+}
+.div-five:hover{
+    /*transform: rotate(45deg);*/
+    /*transform: rotateY(90deg);*/
+    transform: rotateX(90deg);
+    /*animation-name: fan;*/
+    /*animation-duration: 100ms;*/
+    /*animation-iteration-count: infinite;*/
+}
+
+.div-six{
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/cat.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.div-six:hover{
+    transform: translate(20px, 50px);
+    /*transform: translateY(50px);*/
+    /*transform: translateX(50px);*/
+}
+.div-seven{
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/caaaaat.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.div-seven:hover{
+    /*transform: skew(20deg);*/
+    transform: skewY(20deg);
+}
+.div-eight{
+    height: 600px;
+    width: 1000px;
+    background-color: darkcyan;
+
+    animation-name: cat;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+}
+.div-nine{
+    width: 300px;
+    height: 300px;
+    background-color: darkblue;
+    transform: skewY(45deg);
+    margin-top: 140px;
+}
+.div-ten{
+    width: 300px;
+    height: 300px;
+    background-color: darkblue;
+    transform: skewY(-45deg);
+    margin-top: 140px;
+}
+@keyframes bitm {
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: lightseagreen;
+
+    }
+}
+@keyframes slide {
+    0%{
+        background-color: lightcoral;
+        width: 300px;
+    }
+    50%{
+        background-color: tomato;
+        width: 600px;
+    }
+    100%{
+        background-color: lightcoral;
+        width: 300px;
+    }
+}
+@keyframes image {
+    0%{
+        background-image: url("../images/oggy.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    25%{
+        background-image: url("../images/OIP.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background-image: url("../images/OIP (1).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    75%{
+        background-image: url("../images/R.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background-image: url("../images/R (1).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+@keyframes fam {
+    0%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes cat {
+    0%{
+        background-image: url("../images/a.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    25%{
+        background-image: url("../images/b.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background-image: url("../images/c.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    75%{
+        background-image: url("../images/d.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background-image: url("../images/e.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+}

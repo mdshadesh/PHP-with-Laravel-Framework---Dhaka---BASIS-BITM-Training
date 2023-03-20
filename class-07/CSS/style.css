@@ -1,0 +1,134 @@
+/*.div-one{*/
+/*    height: 100px;*/
+/*    width: 20%;*/
+/*    background-color: teal;*/
+/*    float: left;*/
+/*}*/
+/*.div-two{*/
+/*    height: 100px;*/
+/*    width: 80%;*/
+/*    background-color: darkslategray;*/
+/*    float: left;*/
+/*}*/
+/*.div-three{*/
+/*    height: 50px;*/
+/*    width: 100%;*/
+/*    background-color: green;*/
+/*    float: left;*/
+/*}*/
+/*.div-four{*/
+/*    height: 200px;*/
+/*    width: 20%;*/
+/*    background-color: gray;*/
+/*    float: left;*/
+/*}*/
+/*.div-five{*/
+/*    height: 200px;*/
+/*    width: 80%;*/
+/*    background-color: aqua;*/
+/*    float: left;*/
+/*}*/
+/*.div-six{*/
+/*    height: 100px;*/
+/*    width: 25%;*/
+/*    background-color: blueviolet;*/
+/*    float: left;*/
+/*}*/
+/*.div-seven{*/
+/*    height: 100px;*/
+/*    width: 25%;*/
+/*    background-color: darkslategray;*/
+/*    float: left;*/
+/*}*/
+/*.div-eight{*/
+/*    height: 100px;*/
+/*    width: 25%;*/
+/*    background-color: blue;*/
+/*    float: left;*/
+/*}*/
+/*.div-nine{*/
+/*    height: 100px;*/
+/*    width: 25%;*/
+/*    background-color: darkgreen;*/
+/*    float: left;*/
+/*}*/
+/*.div-ten{*/
+/*    height: 100px;*/
+/*    width: 100%;*/
+/*    background-color: darkolivegreen;*/
+/*    float: left;*/
+/*}*/
+
+*{
+    box-sizing: border-box;
+}
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+[class*="col-"]
+{
+    border: 1px solid gray;
+    float: left;
+}
+
+
+.row:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+h1:hover{
+    color: red;
+}
+
+.h-50{
+    height: 50px;
+}
+.h2-200{
+    height: 200px;
+}
+.h3-300{
+    height: 300px;
+}
+.h4-600{
+    height: 600px;
+}
+
+
+
+
