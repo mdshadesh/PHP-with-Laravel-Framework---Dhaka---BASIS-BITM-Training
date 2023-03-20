@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand bg-dark navbar-dark">
+            <div class="container">
+                <img src="images/Bootstrap_logo.svg%20(1).png" alt="" class="logo">
+                <div class="row">
+                    <ul class="navbar-nav ms-auto">
+                        <li><a href="" class="nav-link">Home</a></li>
+                        <li><a href="" class="nav-link">About</a></li>
+                        <li><a href="" class="nav-link">Gallery</a></li>
+                        <li><a href="" class="nav-link">Project</a></li>
+                        <li><a href="" class="nav-link">Service</a></li>
+                        <li><a href="" class="nav-link">Contact</a></li>
+                        <li><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#singIn">Sing in</a></li>
+                        <li><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#singOut">Sing up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">LSB</div>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/img.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="text-center">Naimul Hasan Shadesh</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque error facilis hic minus nemo perferendis quas vitae voluptate? Accusantium aperiam asperiores doloribus excepturi id laborum neque non recusandae sint, voluptates.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur cum et exercitationem, explicabo hic illo iure modi necessitatibus quaerat quidem reiciendis rem repellendus sint suscipit! Beatae debitis nemo provident.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h2 class="text-center py-4">Recent Project</h2>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/aa.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h3>Man Juta</h3>
+                                        <p>Price: 35,000Tk</p>
+                                        <a href="" class="btn btn-success">Read more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/bb.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h3>Man Juta</h3>
+                                        <p>Price: 35,000Tk</p>
+                                        <a href="" class="btn btn-success">Read more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/cc.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h3>Man Juta</h3>
+                                        <p>Price: 35,000Tk</p>
+                                        <a href="" class="btn btn-success">Read more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <div class="modal" id="singIn" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center">Log in</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <form action="">
+                                <div class="mt-2">
+                                    <label for="">Email</label>
+                                    <input type="email" name="Email" class="form-control" placeholder="Enter Your Email" >
+                                </div>
+                                <div class="mt-2">
+                                    <label for="">Password</label>
+                                    <input type="password" name="Password" class="form-control" placeholder="Enter Your Password">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn btn-success " data-bs-dismiss="modal" >Close</a>
+                        <input type="submit" class="btn btn-success" value="Log In">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="singOut" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="ms-auto">Sing up</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <form action="">
+                                <div class="row mt-3">
+                                    <label for="fastName" class="col-md-4">Fast Name</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="fastName" name="fast name" class="form-control" placeholder="Enter Your Fast Name">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="lastName" class="col-md-4">Last Name</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="lastName" name="Last name" class="form-control" placeholder="Enter Your Last Name">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="number" class="col-md-4">Number</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="number" name="Number " class="form-control" placeholder="Enter Your Number">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="mail" class="col-md-4">Email</label>
+                                    <div class="col-md-8">
+                                        <input type="email" id="mail" name="email " class="form-control" placeholder="Enter Your Email">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="edu" class="col-md-4">Education </label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="edu" name="Education " class="form-control" placeholder="Enter Your Education ">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="add" class="col-md-4">Address </label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="add" name="Address " class="form-control" placeholder="Enter Your Address">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="pass" class="col-md-4">Password</label>
+                                    <div class="col-md-8">
+                                        <input type="password" id="pass" name="Password" class="form-control" placeholder="Enter Your Password">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="cpass" class="col-md-4">Confirm Password</label>
+                                    <div class="col-md-8">
+                                        <input type="password" id="cpass" name="password " class="form-control" placeholder="Enter Your Confirm Password">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="" class="col-md-4">Gender</label>
+                                    <div class="col-md-8">
+                                        <label><input type="radio" name="gender"> Male</label>
+                                        <label><input type="radio" name="gender"> Female</label>
+                                        <label><input type="radio" name="gender"> Other</label>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="dis" class="col-md-4">District</label>
+                                    <div class="col-md-8">
+                                        <select name="district" id="dis" class="form-control" >
+                                            <option value="Dhaka" >Dhaka</option>
+                                            <option value="Noakhali">Noakhali</option>
+                                            <option value="Comilla">Comilla</option>
+                                            <option value="Chadpur">Chadpur</option>
+                                            <option value="Barishal">Barishal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <label for="cmd" class="col-md-4">Comment</label>
+                                    <div class="col-md-8">
+<!--                                        <input type="password" id="cmd" name="password " class="form-control" placeholder="Enter Your Confirm Password">-->
+                                        <textarea name="Commend" id="cmd" cols="35" rows="4" placeholder="Enter Your Comment"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn btn-danger " data-bs-dismiss="modal" >Close</a>
+                        <input type="submit" class="btn btn-success" value="Sing Up">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
+

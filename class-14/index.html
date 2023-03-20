@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .slider-height{
+            height: 500px;
+            width: 100%;
+        }
+        .my-caption{
+            position: absolute;
+            top: 150px;
+            background-color: rgba(0,0,0,.2);
+            border-radius: 30%;
+            height: 200px;
+        }
+        .card-img{
+            height: 270px;
+            width: 320px;
+
+        }
+    </style>
+</head>
+        <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container">
+                <a href=" "> <img src="images/Bootstrap_logo.svg%20(1).png" alt="" height="50px" width="50px"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    <ul class="navbar-nav mx-auto">
+                        <li><a href="" class="nav-link">Home</a></li>
+                        <li><a href="" class="nav-link">About</a></li>
+                        <li class="dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                            <ul class="dropdown-menu bg-secondary">
+                                <li><a href="" class="dropdown-item ">Service-1</a></li>
+                                <li><a href="" class="dropdown-item ">Service-2</a></li>
+                                <li><a href="" class="dropdown-item ">Service-3</a></li>
+                                <li><a href="" class="dropdown-item ">Service-4</a></li>
+                                <li><a href="" class="dropdown-item ">Service-5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="" class="nav-link">Gallery</a></li>
+                        <li><a href="" class="nav-link">Contact</a></li>
+                        <li><a href="" class="nav-link">Sing-in</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="carousel slide" id="mainCarousel" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainCarousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" alt="slide-1" class="slider-height w-100" >
+                    <div class="carousel-caption my-caption">
+                        <h1>Hello Naimul Hasan Shadesh</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur corporis cum error eum, exercitationem ipsam iusto maiores non nostrum odit quas quia reprehenderit repudiandae sequi sint sunt suscipit velit? Voluptas!</p>
+                        <a href="" class="btn btn-success">Read more.......</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.png" alt="slide-2" class="slider-height w-100" >
+                    <div class="carousel-caption my-caption">
+                        <h1>Hello Naimul</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias consequuntur enim excepturi facere fugit hic, illum nesciunt officia quas quo reiciendis sed vel. Dignissimos eius libero minima non sequi.</p>
+                        <a href="" class="btn btn-danger">Read more...</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.jpg" alt="slide-3" class="slider-height w-100" >
+                    <div class="carousel-caption my-caption">
+                        <h1>Hello Hasan</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias consequuntur enim excepturi facere fugit hic, illum nesciunt officia quas quo reiciendis sed vel. Dignissimos eius libero minima non sequi.</p>
+                        <a href="" class="btn btn-danger">Read more...</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.jpg" alt="slide-4" class="slider-height w-100" >
+                    <div class="carousel-caption my-caption">
+                        <h1>Hello Shadesh</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias consequuntur enim excepturi facere fugit hic, illum nesciunt officia quas quo reiciendis sed vel. Dignissimos eius libero minima non sequi.</p>
+                        <a href="" class="btn btn-danger">Read more...</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/5.jpg" alt="slide-5" class="slider-height w-100" >
+                    <div class="carousel-caption my-caption">
+                        <h1>Hello Naimul</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias consequuntur enim excepturi facere fugit hic, illum nesciunt officia quas quo reiciendis sed vel. Dignissimos eius libero minima non sequi.</p>
+                        <a href="" class="btn btn-danger">Read more...</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.png" alt="slide-6" class="slider-height w-100" >
+                    <div class="carousel-caption my-caption">
+                        <h1>Hello Naimul</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias consequuntur enim excepturi facere fugit hic, illum nesciunt officia quas quo reiciendis sed vel. Dignissimos eius libero minima non sequi.</p>
+                        <a href="" class="btn btn-danger">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="carousel-control-next" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-prev" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+        </div>
+
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">This is Shadesh</div>
+                            <div class="card-body">
+                                <img src="images/c.jpg" alt="" height="250px" width="250px">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam earum ex harum maiores minima molestias, non possimus quisquam vel veniam! Ab adipisci architecto cum impedit libero nobis reiciendis suscipit? Tempora.</p>
+                            </div>
+                            <div class="card-footer">Footer</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h1>This is Bandorban</h1>
+                            </div>
+                            <div class="card-body">
+                                <img src="images/e.jpg" alt="" width="250px" height="250px">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, assumenda beatae consequuntur dolores eaque eius error, esse eveniet in ipsum labore minima molestiae natus quaerat quam repellendus sit vel.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-success">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h1>This is Bandorban</h1>
+                            </div>
+                            <div class="card-body">
+                                <img src="images/f.jpg" alt="" width="250px" height="250px">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, assumenda beatae consequuntur dolores eaque eius error, esse eveniet in ipsum labore minima molestiae natus quaerat quam repellendus sit vel.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-success">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/s.jpg" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h1>sunglasses</h1>
+                                <p>Price : 5,000TK</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-success">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/u.jpg" alt="" class="card-img-top card-img" >
+                            <div class="card-body">
+                                <h1>sunglasses</h1>
+                                <p>Price : 5,000TK</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-success">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/n.jpg" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h1>sunglasses</h1>
+                                <p>Price : 5,000TK</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-success">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="row row-cols-sm-3 row-cols-md-3">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/s.jpg" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h2>Glass</h2>
+                                <p>Price : 35,200TK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/l.png" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h2>Glass</h2>
+                                <p>Price : 35,200TK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/g.jpg" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h2>Glass</h2>
+                                <p>Price : 35,200TK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/g.jpg" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h2>Glass</h2>
+                                <p>Price : 35,200TK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/g.jpg" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h2>Glass</h2>
+                                <p>Price : 35,200TK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/g.jpg" alt="" class="card-img-top card-img">
+                            <div class="card-body">
+                                <h2>Glass</h2>
+                                <p>Price : 35,200TK</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Hello Dhaka</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, in incidunt perspiciatis qui quo temporibus. Accusamus animi asperiores cupiditate hic itaque minima quia, quidem quod, reiciendis, tempora tenetur veritatis voluptas.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid amet commodi consequuntur hic id illum ipsa minus, omnis optio pariatur quaerat qui, quos repellendus saepe sit suscipit, tempore totam.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="" class="btn btn-success">Read more...</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Hello Dhaka</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, in incidunt perspiciatis qui quo temporibus. Accusamus animi asperiores cupiditate hic itaque minima quia, quidem quod, reiciendis, tempora tenetur veritatis voluptas.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid amet commodi consequuntur hic id illum ipsa minus, omnis optio pariatur quaerat qui, quos repellendus saepe sit suscipit, tempore totam.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="" class="btn btn-success">Read more...</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Hello Dhaka</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, in incidunt perspiciatis qui quo temporibus. Accusamus animi asperiores cupiditate hic itaque minima quia, quidem quod, reiciendis, tempora tenetur veritatis voluptas.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid amet commodi consequuntur hic id illum ipsa minus, omnis optio pariatur quaerat qui, quos repellendus saepe sit suscipit, tempore totam.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="" class="btn btn-success">Read more...</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Hello Dhaka</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, in incidunt perspiciatis qui quo temporibus. Accusamus animi asperiores cupiditate hic itaque minima quia, quidem quod, reiciendis, tempora tenetur veritatis voluptas.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid amet commodi consequuntur hic id illum ipsa minus, omnis optio pariatur quaerat qui, quos repellendus saepe sit suscipit, tempore totam.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="" class="btn btn-success">Read more...</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Hello Dhaka</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, in incidunt perspiciatis qui quo temporibus. Accusamus animi asperiores cupiditate hic itaque minima quia, quidem quod, reiciendis, tempora tenetur veritatis voluptas.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid amet commodi consequuntur hic id illum ipsa minus, omnis optio pariatur quaerat qui, quos repellendus saepe sit suscipit, tempore totam.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="" class="btn btn-success">Read more...</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Hello Dhaka</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, in incidunt perspiciatis qui quo temporibus. Accusamus animi asperiores cupiditate hic itaque minima quia, quidem quod, reiciendis, tempora tenetur veritatis voluptas.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid amet commodi consequuntur hic id illum ipsa minus, omnis optio pariatur quaerat qui, quos repellendus saepe sit suscipit, tempore totam.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="" class="btn btn-success">Read more...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <scetion class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <nav >
+                            <div class="nav nav-tabs">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#html" class="nav-link active">HTML</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#css" class="nav-link">CSS</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#bootstrap" class="nav-link">Bootstrap</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#php" class="nav-link">PHP</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content">
+                            <div class="tab-pane fade active show" id="html" >
+                                <h2 class="text-uppercase">This is HTML Content</h2>
+                                <img src="images/4.jpg" alt="" style=" height: 300px; width: 300px;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at autem cum omnis quisquam. Deleniti earum laudantium, neque odit repellat vel vitae. Consectetur dolore enim iure pariatur sapiente velit voluptatem.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, alias aspernatur distinctio dolore doloremque ipsam maxime porro provident quam quibusdam rerum totam veritatis voluptas, voluptate voluptatem. Atque harum nam rerum?</p>
+                            </div>
+                            <div class="tab-pane fade" id="css" >
+                                <h2>This is CSS Content</h2>
+                                <img src="images/1.jpg" alt="" style=" height: 300px; width: 300px;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at autem cum omnis quisquam. Deleniti earum laudantium, neque odit repellat vel vitae. Consectetur dolore enim iure pariatur sapiente velit voluptatem.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, alias aspernatur distinctio dolore doloremque ipsam maxime porro provident quam quibusdam rerum totam veritatis voluptas, voluptate voluptatem. Atque harum nam rerum?</p>
+
+                            </div>
+                            <div class="tab-pane fade" id="bootstrap" >
+                                <h2 class="text-uppercase">This is Bootstrap Content</h2>
+                                <img src="images/4.jpg" alt="" style=" height: 300px; width: 300px;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at autem cum omnis quisquam. Deleniti earum laudantium, neque odit repellat vel vitae. Consectetur dolore enim iure pariatur sapiente velit voluptatem.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, alias aspernatur distinctio dolore doloremque ipsam maxime porro provident quam quibusdam rerum totam veritatis voluptas, voluptate voluptatem. Atque harum nam rerum?</p>
+
+                            </div>
+                            <div class="tab-pane fade" id="php" >
+                                <h2 class="text-uppercase">This is PHP Content</h2>
+                                <img src="images/4.jpg" alt="" style=" height: 300px; width: 300px;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at autem cum omnis quisquam. Deleniti earum laudantium, neque odit repellat vel vitae. Consectetur dolore enim iure pariatur sapiente velit voluptatem.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, alias aspernatur distinctio dolore doloremque ipsam maxime porro provident quam quibusdam rerum totam veritatis voluptas, voluptate voluptatem. Atque harum nam rerum?</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </scetion>
+        <hr>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mx-auto">
+                        <nav>
+                            <div class="nav nav-pills justify-content-center">
+                                <button type="button" data-bs-target="#ma" data-bs-toggle="pill" class="nav-link active">Man's Fashion</button>
+                                <button type="button" data-bs-target="#woma" data-bs-toggle="pill" class="nav-link">Woman's Fashion</button>
+                                <button type="button" data-bs-target="#man" data-bs-toggle="pill" class="nav-link">Man Fashion</button>
+                                <button type="button" data-bs-target="#woman" data-bs-toggle="pill" class="nav-link">Woman Fashion</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content mt-4">
+                            <div class="tab-pane fade show active" id="ma">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/cc.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/aa.png" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/bb.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/cc.jpg" alt="" class="card-img-top card-img-height">
+                                    <div class="card-body">
+                                        <h2>Sun</h2>
+                                        <p>prince : 3500TK</p>
+                                        <p>Size : L</p>
+                                    </div>
+                                    <div class="card-footer ">
+                                        <a href="" class="btn btn-success float-end">Read more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/aa.png" alt="" class="card-img-top card-img-height">
+                                    <div class="card-body">
+                                        <h2>Sun</h2>
+                                        <p>prince : 3500TK</p>
+                                        <p>Size : L</p>
+                                    </div>
+                                    <div class="card-footer ">
+                                        <a href="" class="btn btn-success float-end">Read more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/bb.jpg" alt="" class="card-img-top card-img-height">
+                                    <div class="card-body">
+                                        <h2>Sun</h2>
+                                        <p>prince : 3500TK</p>
+                                        <p>Size : L</p>
+                                    </div>
+                                    <div class="card-footer ">
+                                        <a href="" class="btn btn-success float-end">Read more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                            <div class="tab-pane fade " id="woma">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/a1.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/a2.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/bb.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="tab-pane fade " id="man">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/cc.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/aa.png" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/bb.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success float-end">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="tab-pane fade " id="woman">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="images/s.jpg" alt="" class="card-img-top card-img-height">
+                                            <div class="card-body">
+                                                <h2>Sun</h2>
+                                                <p>prince : 3500TK</p>
+                                                <p>Size : L</p>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <a href="" class="btn btn-success">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="table-responsive">
+                            <table class="table table-light table-hover table-striped table-responsive">
+                                <thead class="table-danger">
+                                <tr>
+                                    <th>Serial No</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Website</th>
+                                    <th>Address</th>
+                                    <th>University</th>
+                                </tr>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Shadesh</td>
+                                    <td>naimulhasanshadesh@gmail.com</td>
+                                    <td>01874743293</td>
+                                    <td>www.shadesh.com</td>
+                                    <td>37/3 tushardhara Dhaka-1362</td>
+                                    <td>Sonargaon University</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Shadesh</td>
+                                    <td>naimulhasanshadesh@gmail.com</td>
+                                    <td>01874743293</td>
+                                    <td>www.shadesh.com</td>
+                                    <td>37/3 tushardhara Dhaka-1362</td>
+                                    <td>Sonargaon University</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Shadesh</td>
+                                    <td>naimulhasanshadesh@gmail.com</td>
+                                    <td>01874743293</td>
+                                    <td>www.shadesh.com</td>
+                                    <td>37/3 tushardhara Dhaka-1362</td>
+                                    <td>Sonargaon University</td>
+                                </tr>
+                                </tbody>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="text-center bg-info">Registration Form</h1>
+                        <div class="">
+                            <form action="" method="">
+                                <div>
+                                    <label for="Fast Name">Fast Name</label>
+                                    <input type="text" name="Fast-Name" placeholder="Enter Your Name" class="form-control">
+                                </div>
+                                <div class="mt-3">
+                                    <label for="Last Name">Last Name</label>
+                                    <input type="text" name="Last-Name" placeholder="Enter Your Last name" class="form-control">
+                                </div>
+                                <div class="mt-3">
+                                    <label for="Number">Number</label>
+                                    <input type="text" name="Number" placeholder="Enter Your Number" class="form-control">
+                                </div>
+                                <div class="mt-3">
+                                    <label for="University">University</label>
+                                    <input type="text" name="university" placeholder="Enter Your University" class="form-control">
+                                </div>
+                                <div class="mt-3">
+                                    <label for="Email">Email</label>
+                                    <input type="text" name="email" placeholder="Enter Your Email" class="form-control">
+                                </div>
+                                <div class="mt-3">
+                                    <label for="Address">Address</label>
+                                    <input type="text" name="address" placeholder="Enter Your Address " class="form-control">
+                                </div>
+                                <div class="mt-3">
+                                    <label for="Pass">Password</label>
+                                    <input type="password" name="Password" placeholder="Enter Your Password" class="form-control">
+                                </div>
+                                <div class="mt-3">
+                                    <label for="Gender">Gender</label>
+                                    <label><input type="radio" name="gender"> Male</label>
+                                    <label><input type="radio" name="gender"> Female</label>
+                                    <label><input type="radio" name="gender"> Other</label>
+                                </div>
+                                <div class="mt-3">
+                                    <label for="">District Name</label>
+                                    <select name="district" id="" class="form-control">
+                                        <option value="Dhaka">Dhaka</option>
+                                        <option value="Noakhali">Noakhali</option>
+                                        <option value="Comilla">Comilla</option>
+                                        <option value="Chadpur">Chadpur</option>
+                                        <option value="Barishal">Barishal</option>
+                                    </select>
+                                    <div class="mt-3">
+                                        <input type="submit" value="submit data" class="btn btn-success">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <script src="js/bootstrap.bundle.js" ></script>
+</body>
+</html>
