@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+</head>
+<body id="body">
+        <h1 id="test">Hi There, This is Naimul Hasan Shadesh</h1>
+
+
+        <script src="js/jquery-3.6.4.js"></script>
+
+        <table>
+            <tr>
+                <td>First Number</td>
+                <td><input type="text" name="firstNumber" id="firstNumber"></td>
+            </tr>
+            <tr>
+                <td>Last Number</td>
+                <td><input type="text" name="lastNumber" id="lastNumber"></td>
+            </tr>
+            <tr>
+                <td>Operator</td>
+                <td> <label for=""><input type="radio" name="operator" value="+">+</label>
+                    <label for=""><input type="radio" name="operator" value="-">-</label>
+                    <label for=""><input type="radio" name="operator" value="*">*</label>
+                    <label for=""><input type="radio" name="operator" value="/">/</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Result</td>
+                <td><input type="text" id="result"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" name="btn" id="btn">Get Result</td>
+            </tr>
+        </table>
+
+
+
+
+        <script src="js/jquery-3.6.4.js"></script>
+        <script>
+
+
+            $('#btn').click(function () {
+                var firstNumber = Number($('#firstNumber').val());
+                var lastNumber = Number($('#lastNumber').val());
+                var operator = $('input[name="operator"]:checked').val();
+
+                switch (operator) {
+                    case '+': result = firstNumber+lastNumber;
+                        break;
+                    case '-': result = firstNumber-lastNumber;
+                        break;
+                    case '*': result = firstNumber*lastNumber;
+                        break;
+                    case '/': result = firstNumber/lastNumber;
+                        break;
+                }
+                $('#result').val(result);
+            })
+
+
+
+            $('#test').click(function () {
+               $(this).css({
+                   color :'blue',
+                   fontSize :'30px',
+                   backgroundColor :'black',
+               });
+            });
+        </script>
+
+
+
+
+
+
+
+
+
+<!--        <div>-->
+<!--            <img src="img/shadesh.jpg" id="mainImg" alt="" style="width: 400px; width: 400px">-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--            <img src="img/a.png" id="subImg1" alt="" style="width: 100px; height: 100px; margin-right: 5px">-->
+<!--            <img src="img/b.jpg" id="subImg2" alt="" style="width: 100px; height: 100px; margin-right: 5px">-->
+<!--            <img src="img/c.jpg" id="subImg3" alt="" style="width: 100px; height: 100px; margin-right: 5px">-->
+<!--            <img src="img/d.jpg" id="subImg4" alt="" style="width: 100px; height: 100px; margin-right: 5px">-->
+<!--            <img src="img/k.jpeg" id="subImg5" alt="" style="width: 100px; height: 100px; margin-right: 5px">-->
+<!--        </div>-->
+
+<!--        <script>-->
+
+<!--            var mainImg = document.getElementById('mainImg')-->
+
+<!--            var subImg1 = document.getElementById('subImg1')-->
+<!--            subImg1.onclick = function () {-->
+<!--                var subImg1Path = subImg1.getAttribute('src');-->
+<!--                mainImg.setAttribute('src', subImg1Path);-->
+<!--            }-->
+<!--            var subImg2 = document.getElementById('subImg2')-->
+<!--            subImg2.onclick = function () {-->
+<!--                var subImg1Path = subImg2.getAttribute('src');-->
+<!--                mainImg.setAttribute('src', subImg1Path);-->
+<!--            }-->
+<!--            var subImg3 = document.getElementById('subImg3')-->
+<!--            subImg3.onclick = function () {-->
+<!--                var subImg1Path = subImg3.getAttribute('src');-->
+<!--                mainImg.setAttribute('src', subImg1Path);-->
+<!--            }-->
+<!--            var subImg4 = document.getElementById('subImg4')-->
+<!--            subImg4.onclick = function () {-->
+<!--                var subImg1Path = subImg4.getAttribute('src');-->
+<!--                mainImg.setAttribute('src', subImg1Path);-->
+<!--            }-->
+<!--            var subImg5 = document.getElementById('subImg5')-->
+<!--            subImg5.onclick = function () {-->
+<!--                var subImg1Path = subImg5.getAttribute('src');-->
+<!--                mainImg.setAttribute('src', subImg1Path);-->
+<!--            }-->
+
+
+
+
+
+
+<!--            var mainImg = document.getElementById('mainImg');-->
+<!--            mainImg.onmouseover = function () {-->
+<!--                mainImg.setAttribute('src', 'img/a.png');-->
+<!--            }-->
+<!--            mainImg.onmouseleave = function () {-->
+<!--                mainImg.setAttribute('src', 'img/shadesh.jpg');-->
+<!--            }-->
+
+
+
+
+<!--            var test = document.getElementById('test');-->
+<!--            alert(test);-->
+<!--            test.onclick = function() {-->
+<!--                test.innerHTML = 'Hello Gorib Bangladesh';-->
+<!--            }-->
+<!--            test.onmouseover = function (){-->
+<!--                test.style.color = 'hotpink';-->
+<!--            }-->
+<!--            test.onmouseleave = function (){-->
+<!--                test.style.color = 'red';-->
+<!--            }-->
+
+
+<!--            console.log(test);-->
+
+
+
+<!--            document.write('<br>Create a Summation with three number', '<br>');-->
+<!--            function hello() {-->
+<!--                var a = 10;-->
+<!--                var b = 20;-->
+<!--                var c = 30;-->
+<!--                var sum = a+b+c;-->
+<!--                document.write("The Summation is : ",sum,'<br>');-->
+<!--            }-->
+<!--            hello();-->
+
+
+<!--            function createDiv(color,H, W) {-->
+<!--                var div = document.createElement('div');-->
+<!--                div.style.height = H;-->
+<!--                div.style.width = W;-->
+<!--                div.style.backgroundColor = color;-->
+<!--                div.style.float = 'left';-->
+
+<!--                var cont = document.getElementById('body');-->
+<!--                cont.append(div);-->
+<!--            }-->
+<!--            createDiv('blue', '400px','300px');-->
+<!--            createDiv('green','300px','300px');-->
+<!--            createDiv('pink','200px','300px');-->
+<!--            createDiv('black','100px','300px');-->
+<!--        </script>-->
+</body>
+</html>

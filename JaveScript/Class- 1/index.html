@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Day JavaScript</title>
+</head>
+<body>
+     <h1>Hello Goribe Bangladesh</h1>
+    <h2>Bangladesh tume asolae goribulla gorib</h2>
+
+     <p id="BG">JavaScript can change HTML content.</p>
+
+     <button type="button" onclick="document.getElementById('BG').innerHTML = 'Hello Gorib Bangladesh!'">Click </button>
+     <h1> </h1>
+
+     <script>
+         var name = 'Naimul';
+         // alert(name);
+
+         document.write('Hello Naimul Hasan Shadesh');
+         document.write('<br>');
+
+         var fname = 'Naimul Hasan';
+         var lname  = ' Shadesh';
+
+         // alert(fname+lname);
+
+         var fullname = fname+lname;
+
+         document.write(fullname);
+         document.write('<br>');
+
+
+         var i = 1;
+         while(i <= 6) {
+             document.write("<p>The number is " + i + "</p>");
+             i++;
+         }
+         var data = [20,10,15,25,36,95,878]
+         for(key in data)
+         {
+             document.write('The Number of Data '+key+ ' : ' +data[key]+'<br>')
+         }
+
+
+         var students = [
+             {name:'Naimul ', eemail:'shadesh@ggmail.com', phone:' 01874743293 '},
+             {name:'Naimul ', eemail:'shadesh@ggmail.com', phone:' 01874743293 '},
+             {name:'Naimul ', eemail:'shadesh@ggmail.com', phone:' 01874743293 '}
+         ];
+         // document.write(students[0].name)
+
+         for (num in students)
+         {
+             document.write('name is : '+ students[num].name+'phone is : '+students[num].phone+"<br>")
+         }
+
+     </script>
+
+</body>
+</html>
