@@ -1,0 +1,55 @@
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.bg-orange{ background-color: #FF4800; }
+
+.bg-orange:hover
+{
+    background-color: #D93D00;
+    color: white;
+}
+
+.nav-link:hover
+{
+    background-color: #FF4800;
+    color: white;
+}
+.text-orange, .text-orange:hover{ color: #FF4800; }
+.banner-section
+{
+    height: 500px;
+    background-image: url("../img/header.jpg");
+}
+.banner-card
+{
+    margin-top: 130px;
+    padding: 50px;
+}
+.free-quote-form
+{
+    padding: 80px;
+}
+
+/*=================*/
+
+.team-card
+{
+    border-bottom: 5px solid #FF4800;
+}
+.team-card .card-body
+{
+    position: relative;
+}
+.hover-content
+{
+    display: none;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.team-card:hover .hover-content
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
