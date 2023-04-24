@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+        <style>
+            .div-one{
+                width: 200px;
+                height: 200px;
+                background-color: red;
+                margin: 19px;
+                float: left;
+            }
+            .btn-1{
+                float: left;
+                padding-left: 20px;
+            }
+
+        </style>
+
+
+<body>
+    <div id="res"></div>
+
+    <div>
+        <h1 id="heading" onclick="alert('hello')">This is Heading...</h1>
+        <input type="text" name="" id="input" />
+        <img src="../img/blog-1.jpg" id="img" height="200px" width="200px" style="border-radius: 50%" alt=""/>
+        <button type="button" id="btn">Click Me</button>
+    </div>
+
+
+    <div>
+        <img src="../img/team-1.jpg" alt="" id="multiImg" height="400px" width="400px" style="padding: 20px">
+      <div class="btn-1">
+          <button type="button">Img-1</button>
+          <button type="button" id="button1">Img-2</button>
+          <button type="button" id="button2" >Img-3</button>
+          <button type="button" id="button3">Img-4</button>
+      </div>
+    </div>
+
+
+
+        <script>
+            var buttonElement = document.getElementById('button1');
+            buttonElement.onclick = function () {
+                var multiImg = document.getElementById('multiImg');
+                multiImg.setAttribute('src', '../img/team-2.jpg');
+            }
+            var buttonElement = document.getElementById('button2');
+            buttonElement.onclick = function () {
+                var multiImg = document.getElementById('multiImg');
+                multiImg.setAttribute('src', '../img/team-3.jpg');
+            }
+            var buttonElement = document.getElementById('button3');
+            buttonElement.onclick = function () {
+                var multiImg = document.getElementById('multiImg');
+                multiImg.setAttribute('src', '../img/team-4.jpg');
+            }
+
+
+
+            var btnElement = document.getElementById('btn');
+            btnElement.onclick = function () {
+                var img = document.getElementById('img');
+                img.setAttribute('src', '../img/blog-2.jpg');
+            }
+
+
+            // function createDiv() {
+            //     var div = document.createElement('div');
+            //     div.className = 'div-one';
+            //     document.getElementById('res').append(div);
+            // }
+            //
+            // createDiv();
+            // createDiv();
+
+
+
+
+
+            var input = document.getElementById('input');
+            // console.log(input);
+
+            var headingContent = document.getElementById('heading').innerText;
+            input.onblur = function () {
+                // var headingContent = document.getElementById('heading').innerText;
+                // alert(headingContent);
+                document.getElementById('heading').innerText = headingContent;
+                input.value = '';
+            };
+
+                input.onkeyup = function () {
+
+                    var value = input.value;
+                    document.getElementById('heading').innerText = value;
+
+
+
+                };
+
+
+
+            var heading = document.getElementById('heading');
+            heading.onclick = function () {
+                heading.style.backgroundColor = 'red';
+                heading.style.color = 'white';
+                heading.style.fontSize = '100px';
+            };
+
+
+        </script>
+
+</body>
+
+</html>

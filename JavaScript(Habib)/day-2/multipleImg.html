@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+
+</style>
+<body>
+
+
+<div class="text-center">
+    <div>
+        <img src="../img/testimonial-3.jpg" id="main-img" alt="" height="300" width="320">
+            <div>
+                <img src="../img/team-1.jpg" id="img-one" alt="" height="100" width="100">
+                <img src="../img/team-2.jpg" id="img-two" alt="" height="100" width="100">
+                <img src="../img/team-3.jpg" id="img-three" alt="" height="100" width="100">
+                <img src="../img/team-4.jpg" id="img-four" alt="" height="100" width="100">
+            </div>
+    </div>
+</div>
+
+
+<script>
+
+
+
+    //gallery
+
+
+    var imgOne = document.getElementById('img-one');
+    var imgTwo = document.getElementById('img-two');
+    var imgThree = document.getElementById('img-three');
+    var mainImg = document.getElementById('main-img');
+    imgOne.onclick = function () {
+        mainImg.setAttribute('src', 'img/1.png');
+    }
+
+    imgThree.onclick = function () {
+        mainImg.setAttribute('src', 'img/3.png');
+    }
+
+    function setImage(id,name){
+        document.getElementById(id).onclick=function () {
+            const img = document.getElementById('img');
+            img.setAttribute('src',name);
+        }
+    }
+
+    setImage('img1','team-1.jpg');
+    setImage('img2','team-2.jpg');
+    setImage('img3','team-3.jpg');
+    setImage('img4','team-4.jpg');
+</script>
+
+</body>
+</html>
